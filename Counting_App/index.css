@@ -1,0 +1,87 @@
+body {
+    background-image: url("col.jpg");
+    background-size: cover;
+    font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height:100vh;
+}
+.container
+{
+ background-image: url("color.avif");
+ background-size: cover;
+ max-width:60%;
+ margin:auto;
+ border:3px solid white;
+ border-radius: 10px;
+ height: 90vh;
+ padding-top: 30px;
+ padding-bottom: 20px;
+ padding-left: 20px;
+ padding-right: 20px;
+ 
+}
+
+.entry
+{
+    color: rgb(229, 58, 15);
+    font-size:50px;
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    padding-top: 30px;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn
+{  
+    position:relative;
+    top: 30px; /* Move the button 20 pixels down */
+    left: 95px;
+    line-height:30px;
+    background: rgb(74, 171, 180);
+    font-size: 20px;
+    border:3px solid rgb(31, 219, 184);
+
+}
+
+#save-btn 
+{
+    
+    position:relative;
+    top: 140px; /* Move the button 20 pixels down */
+    left: -110px;
+    line-height:30px;
+    background: rgb(211, 81, 180);
+    font-size: 20px;
+    border:3px solid rgb(219, 26, 168);
+
+}
+
+#save-el
+{
+    position:relative;
+    top: 180px;
+    left: 0px;
+    font-size:35px;
+    color:rgb(130, 135, 69);
+   
+}
+
